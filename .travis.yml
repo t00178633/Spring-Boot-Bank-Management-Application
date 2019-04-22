@@ -21,4 +21,4 @@ deploy:
   #repo: 0b3b6259dd92b0177b344f64f23b163a4307d948
   #keep_history: true
   on:
-    branch: master
+    branch: t00178633 / Spring-Boot-Bank-Management-Application
