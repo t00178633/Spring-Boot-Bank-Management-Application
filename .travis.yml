@@ -1,15 +1,24 @@
 language: java
 
 deploy:
-  provider: pages
-  skip_cleanup: true
 
-  env:
-    global:
-      - github_token=0b3b6259dd92b0177b344f64f23b163a4307d948
+  provider: heroku
+
+  api_key: 089920e5-b5b1-4921-af8c-e867a0027f3f
+
+  app: devopspipeline
+
+  on: t00178633/Spring-Boot-Bank-Management-Application
+#deploy:
+ # provider: pages
+  #skip_cleanup: true
+
+  #env:
+   # global:
+    #  - github_token=0b3b6259dd92b0177b344f64f23b163a4307d948
   #Authorization: token <0b3b6259dd92b0177b344f64f23b163a4307d948>
-  github_token: github_token  # Set in the settings page of your repository, as a secure variable
+  #github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   #repo: 0b3b6259dd92b0177b344f64f23b163a4307d948
-  keep_history: true
-  on:
-    branch: master
+  #keep_history: true
+  #on:
+   # branch: master
