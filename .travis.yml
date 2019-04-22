@@ -8,7 +8,7 @@ deploy:
 
   app: devopspipeline
 
-  on: t00178633/Spring-Boot-Bank-Management-Application
+  #on: t00178633/Spring-Boot-Bank-Management-Application
 #deploy:
  # provider: pages
   #skip_cleanup: true
@@ -20,5 +20,5 @@ deploy:
   #github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   #repo: 0b3b6259dd92b0177b344f64f23b163a4307d948
   #keep_history: true
-  #on:
-   # branch: master
+  on:
+    branch: master
