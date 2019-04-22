@@ -1,13 +1,10 @@
 language: java
 
-env:
-  global:
-    - secure: 0b3b6259dd92b0177b344f64f23b163a4307d948
-
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  Authorization: token <0b3b6259dd92b0177b344f64f23b163a4307d948>
+  #github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: master
